@@ -68,17 +68,25 @@ nav ul li a:hover::after{
 .header-text h1 span {
         color: #2972f0;
 }
-.starmap-video{
-    margin-top: 50px;
-    width: 600px;
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-
+.headcol1{
+    flex-basis: 35%;
+}
 .boid-video{
-    margin-left: 750px;
-    margin-top: -500px;
-    width: 600px;
+    margin-top: 50px;
+    width: 450px;
 }
-
+.headcol2{
+    flex-basis: 50%;
+}
+.starmap-video {
+    margin-top: 50px;
+    width: 450px;
+}
 #about{
     padding: 50px 0;
     color: #ababab;
@@ -92,7 +100,7 @@ nav ul li a:hover::after{
     flex-basis: 35%;
 }
 .mountain-video{
-    margin-top: 100px;
+    margin-top: 50px;
     width: 450px;
 }
 .about-col-2{
@@ -106,9 +114,52 @@ nav ul li a:hover::after{
     font-weight: 600;
     color: #fff;
 }
-#prospac{
-    padding: 250px 0;
-}
 #project{
     padding:50px 0;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.proj-col-1{
+    flex-basis: 40%;
+}
+.proj-col-1 h1{
+    margin-top: 78px;
+}
+.starmap-video{
+    margin-top: 50px;
+    width: 450px;
+}
+.proj-col-1 p{
+    margin-top: 50px;
+}
+.proj-col-2{
+    flex-basis: 40%;
+}
+.proj-col-2 h1{
+    margin-top: 75px;
+}
+.boid-video{
+    margin-top: 50px;
+    width: 450px;
+}
+.proj-col-2 p{
+    margin-top: 50px;
+}
+
+
+#contact {
+    margin-top: 100px;
+}
+.container p {
+    color: #ababab;
+    margin-top: 30px;
+}
+.container p i {
+    color: #2972f0;
+    margin-right: 15px;
+    font-size: 25px;
 }
