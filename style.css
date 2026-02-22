@@ -1,8 +1,8 @@
 *{
     margin: 0;
     padding: -250px 0;
-    font.family: "popppins", sans-serif;
-    box.sizing: border box;
+    font-family: "popppins", sans-serif;
+    box-sizing: border-box;
 }
 html{
     scroll-behavior: smooth;
